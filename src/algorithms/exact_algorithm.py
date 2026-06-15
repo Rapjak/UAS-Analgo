@@ -268,7 +268,7 @@ if __name__ == "__main__":
 
 
     base_dir  = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(base_dir, "..", "data", "dataset.json")
+    json_path = os.path.join(base_dir, "..", "..", "data", "dataset.json")
 
     print(f"  Memuat dataset dari : {os.path.normpath(json_path)}")
 
